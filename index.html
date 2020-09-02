@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunDay Web - Selamat Datang di web portofolio FunDay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>FunDay Web</h1>
+            <p>Mahasiswa Jurusan Matematika Universitas Negeri Makassar</p>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#masakecil">Masa kecil</a></li>
+                <li><a href="#hobi">Hobi</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="masakecil" class="card">
+                <h2>Masa Kecil</h2>
+                <img src="images/kecil.jpg" alt="kecil" class="featured-image">
+                <p>Fandi Meylwan Hasnur atau biasa dipanggil Fandi adalah seorang manusia yang tinggal dibumi,lebih
+                    tepatnya disuatu daerah di Indonesia yang bernama Baubau, dia tumbuh dan besar disitu dan mengalami
+                    masa kecil yang sama seperti anak-anak lain pada umumnya, seperti bermain sepakbola, bermain
+                    kelereng, bermain layang-layang, bermain sepeda dan masih banyak lagi. Kehidupan Fandi kecil bisa
+                    dibilang menyenangkan karena dia memiliki banyak teman bermain terlebih lagi jika sepupunya yang
+                    mengajaknya bermain, pengingat mereka untuk selesai bermain adalah adzan magrib, karena saking
+                    serunya mereka bermain sampai-sampai lupa waktu, hehe. </p>
+            </article>
+
+            <article id="hobi" class="card">
+                <h2>Hobi </h2>
+                <p>Dia sangat suka dengan hal-hal yang baru, maka dari itu apabila ada sesuatu yang menarik dan belum
+                    dia ketahui, dia akan mencari tahu hal tersebut dan mencoba mempelajarinya. Akhirnya banyak pula
+                    hobi seorang yang namanya Fandi ini.</p>
+
+                <div class="flex-hobi">
+                    <div class="hobi card">
+                        <img src="images/desain.jpg" alt="desain" class="featured-image">
+                        <p>Mulai mengenal desain sejak SMA, dikenalkan oleh guru tentang software desain
+                            grafis, yakni
+                            CorelDraw dan sampai sekarang dia sangat menyukai desain grafis.</p>
+                        <a href="hobi.html">Desain Grafis</a>
+                    </div>
+                    <div class="hobi card">
+                        <img src="images/programming.jpg" alt="programming" class="featured-image">
+                        <p>Pertama kali dia mengenalnya sebelum masuk perkuliah tapi
+                            hanya dasar-dasarnya saja seperti HTML. Dan sekarang mulai belajar mendalaminya walau
+                            tidak kuliah dijurusan IT.</p>
+                        <a href="#hobi">Programming</a>
+                    </div>
+                    <div class="hobi card">
+                        <img src="images/browsing.jpg" alt="browsing" class="featured-image">
+                        <p>Semenjak kenal dengan yang namanya internet, dia sangat suka untuk browsing
+                            hal-hal yang
+                            menarik, seperti video tutorial desain grafis yang ada di youtube, dan lain-lain.</p>
+                        <a href="#hobi">Browsing </a>
+                    </div>
+                    <div class="hobi card">
+                        <img src="images/video.jpg" alt="video" class="featured-image">
+                        <p>Setelah tau desain grafis, dia juga tertarik dengan video editing karena melihat
+                            tutorial editing di youtube, semisal tutorial After Effect, itu membuatnya kagum.</p>
+                        <a href="#hobi">Video Editing</a>
+                    </div>
+                </div>
+
+                <section>
+                    <p>Yang jelas dia sangat meyukai yang namanya teknologi, baik itu teknologi sekarang terlebih lagi
+                        teknologi yang baru-baru dia ketahui.</p>
+                </section>
+
+
+            </article>
+
+            <article id="pendidikan" class="card">
+                <h2>Pendidikan</h2>
+                <img src="images/pendidikan.jpg" alt="pendidikan" class="featured-image">
+                <p>Dia memulai pendidikannya dibangku Taman Kanak-kanak dan memiliki banyak teman, begitupun ketika
+                    ketika masuk Sekolah Dasar dia pun mempunyai banyak teman dan suka bermain dengan teman-temannya
+                    hingga dilanjut ke jenjang Sekolah Menengah Pertama kemudian lanjut ke Sekolah Menengah Pertama dan
+                    akhirnya setelah bertahun-tahun menjadi siswa ditahun 2017 dia pun pertama kali merasakan menjadi
+                    mahasiswa karena dia diterima di salah satu Perguruan Tinggi di Makassar, dan dia masih menempuh
+                    pendidikan perkuliahannya hingga sekarang.</p>
+                <p>Berikut daftar pendidikan Fandi dari Taman Kanak-kanak hingga Perguruan Tinggi.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Pendidikan</th>
+                            <th>Nama Sekolah / Instansi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="daftarPendidikan">
+
+                    </tbody>
+                </table>
+                </fieldset>
+            </article>
+        </div>
+
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Fandi Hasnur</h2>
+                    <p>Seorang yang suka dengan hal-hal baru</p>
+                    <figure>
+                        <img src="images/funday.jpg">
+                    </figure>
+                </header>
+
+                <section>
+                    <h3>Alamat Fandi</h3>
+                    <p>Jalan Kembang, Baubau,<br>Sulawesi Tenggara, Indonesia</p>
+                </section>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Portofolio Fandi Hasnur &#169; 2020, FunDay Web</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <!-- <script src="script.js"></script> -->
+
+</body>
+
+</html>
